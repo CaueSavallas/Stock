@@ -1,0 +1,39 @@
+# Byte-code files
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Distributions and packaging
+.eggs/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+# other common names for virtual environments
+# e.g., if you use pipenv, you might ignore its location
+
+# Editor and system files
+.DS_Store # macOS system files
+.project # Eclipse
+.idea/ # PyCharm
+.vscode/ # VS Code
+Thumbs.db # Windows system files
+
+# Environment variables and secrets
+.env
+.flaskenv
+
+# Testing and linting
+# .coverage
+
+# Log and data files
+*.log
+# *.sqlite3 # for Django or other database files you don't want tracked
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
